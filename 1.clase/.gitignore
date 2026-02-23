@@ -1,0 +1,19 @@
+# Ejecutables sin extensión (Linux/macOS)
+*
+!*/
+!*.c
+!*.h
+!*.cpp
+!*.hpp
+!CMakeLists.txt
+!.gitignore
+
+# Ejecutables de Windows
+*.exe
+*.out
+
+# Carpetas de compilación (La clave de tu pregunta)
+build/
+cmake-build-debug/
+cmake-build-release/
+bin/
