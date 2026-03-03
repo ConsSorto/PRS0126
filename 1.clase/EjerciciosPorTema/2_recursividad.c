@@ -5,6 +5,7 @@ Objetivo: Implementar lógica recursiva y utilizar macros con argumentos para op
 
 // Macro del preprocesador: Sustitución de código antes de compilar
 #define ES_NEGATIVO(n) ((n) < 0)
+#define TOTAL_CON_IMPUESTO(n) (n*1.15)
 
 // Función Recursiva: Cálculo del factorial
 // Basado en el principio: n! = n * (n-1)!
@@ -24,7 +25,7 @@ int main() {
     printf("Calculadora de Factorial (Recursiva)\n");
     printf("Ingrese un numero entero: ");
     scanf("%d", &numero);
-
+    TOTAL_CON_IMPUESTO(100);
     // Uso de la Macro
     if (ES_NEGATIVO(numero)) {
         printf("Error: No se puede calcular el factorial de un negativo.\n");

@@ -75,6 +75,7 @@ void explicarDireccionamiento() {
     printf("\nEl contenido de esa direccion (*p) es: %d\n", *p);
 }
 
+
 // 2. Puntos y Argumentos
 void explicarArgumentos(int *n) {
     printf("\n--- Entrando a la funcion ---");

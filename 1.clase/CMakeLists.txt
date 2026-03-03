@@ -16,4 +16,5 @@ add_executable(1_clase main.c
         EjerciciosPorTema/4_pasoporreferencia.c
         EjerciciosPorTema/4_punteros_varios.c
         EjerciciosPorTema/2_prototipo_funcion.c
-        EjerciciosPorTema/3_preprocesador_define.c)
+        EjerciciosPorTema/3_preprocesador_define.c
+        1.ejercicios/clasepunteros.c)
